@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    float: left;
+    height:100vh;
+    width:300px;
+    background-color: #ffffff;
+    margin-left:20px;
+    position: fixed;
+    overflow-y: auto;
+   
+    
+}
+nav  ul {
+     list-style: none;
+     margin:0px;
+     padding:5px;
+    
+    
+}
+nav a{
+    text-decoration:none ;
+    color: #000;
+    
+   
+}
+.nav-link{
+    display:flex;
+    padding:10px 0px;
+    border-top: 1px black solid;
+   /* border-bottom: 1px black solid;*/
+}
+
+.content{
+       margin-left:320px;
+}
+header p{
+    
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-decoration:underline ;
+    color:orangered;
+}
+p{
+    font-size: medium;
+    margin:15px;
+}
+section ul{
+    margin: 25px;
+}
+section ul li{
+    margin:25px;
+    margin-left:30px;
+    font-size: medium;
+}
+#main-doc{
+    width:95%;/*#Introduction , #hat_you_should_already_know*/
+    font-family: 'Kaisei Tokumin', serif;
+    border-left:2px gray solid ;
+}
+code{
+    background-color:lightgray;
+    margin-left:30px;
+    width:90%;
+    height:50px;
+    display:flex;
+    padding:10px;
+    
+}
+#Variable_scope code{
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 400px) {
+
+    #navbar{
+        position: relative;
+        width:90%;
+        border: 1px solid black;
+        height:40vh;
+        padding-top: 0;
+    }
+    #navbar header{
+        text-align:center;
+        padding-bottom:0px;
+        width:100%;
+    }
+    #navbar div{
+        margin-top:80px;
+    }
+    .content{
+        margin:5px;
+        margin-top: 250px;
+    }
+    section p{
+       margin-right:70px;
+    }
+  }
+  
